@@ -16,10 +16,10 @@
         {
             "Effect": "Allow",
             "Resource": [
-                "arn:aws:s3:::airflow-managed-gds",
-                "arn:aws:s3:::airflow-managed-gds/*",
-                "arn:aws:s3:::aws-glue-assets-851725469799-us-east-1",
-                "arn:aws:s3:::aws-glue-assets-851725469799-us-east-1/*"
+                "arn:aws:s3:::airflow-managed-rom",
+                "arn:aws:s3:::airflow-managed-rom/*",
+                "arn:aws:s3:::aws-glue-assets-891612564500-eu-north-1",
+                "arn:aws:s3:::aws-glue-assets-891612564500-eu-north-1/*"
             ],
             "Action": [
                 "s3:PutObject",
